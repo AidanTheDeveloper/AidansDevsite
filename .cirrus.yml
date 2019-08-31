@@ -7,8 +7,21 @@ build_task:
     - apk add --update nodejs npm
     - dotnet build
 
-test_task:
+test_backend_task:
   container:
     image: mcr.microsoft.com/dotnet/core/sdk:2.2-alpine
   test_script: 
     - dotnet test
+
+test_frontend_task:
+  container:
+    image: node
+  node_modules_cache:
+    folder: MyBlog/ClientApp/node_modules
+    fingerprint_script: cat MyBlog/ClientApp/package-lock.json
+    populate_script:
+      - cd MyBlog/ClientApp
+      - npm install
+    test_script:
+      - cd MyBlog/ClientApp
+      - npm test
