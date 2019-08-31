@@ -22,6 +22,6 @@ test_frontend_task:
     populate_script:
       - cd MyBlog/ClientApp
       - npm install
-    test_script:
-      - cd MyBlog/ClientApp
-      - npm test
+  test_script:
+    - cd MyBlog/ClientApp
+    - npm test
