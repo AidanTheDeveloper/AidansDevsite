@@ -4,7 +4,7 @@ build_task:
   container:
     image: mcr.microsoft.com/dotnet/core/sdk:2.2-alpine
   install_script: 
-    - apt-get install nodejs npm
+    - apk add --update nodejs npm
     - dotnet build
 
 test_task:
