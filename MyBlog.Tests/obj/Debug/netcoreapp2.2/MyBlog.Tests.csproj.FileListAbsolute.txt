@@ -1,0 +1,14 @@
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\MyBlog.Tests.deps.json
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\MyBlog.Tests.runtimeconfig.json
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\MyBlog.Tests.runtimeconfig.dev.json
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\MyBlog.Tests.dll
+C:\Code\MyBlog\MyBlog.Tests\bin\Debug\netcoreapp2.2\MyBlog.Tests.pdb
+C:\Code\MyBlog\MyBlog.Tests\obj\Debug\netcoreapp2.2\MyBlog.Tests.csprojAssemblyReference.cache
+C:\Code\MyBlog\MyBlog.Tests\obj\Debug\netcoreapp2.2\MyBlog.Tests.csproj.CoreCompileInputs.cache
+C:\Code\MyBlog\MyBlog.Tests\obj\Debug\netcoreapp2.2\MyBlog.Tests.AssemblyInfoInputs.cache
+C:\Code\MyBlog\MyBlog.Tests\obj\Debug\netcoreapp2.2\MyBlog.Tests.AssemblyInfo.cs
+C:\Code\MyBlog\MyBlog.Tests\obj\Debug\netcoreapp2.2\MyBlog.Tests.dll
+C:\Code\MyBlog\MyBlog.Tests\obj\Debug\netcoreapp2.2\MyBlog.Tests.pdb
