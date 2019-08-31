@@ -1,0 +1,13 @@
+# global default
+
+build_task:
+  container:
+    image: mcr.microsoft.com/dotnet/core/sdk:2.2-alpine
+  install_script: 
+    - dotnet build
+
+test_task:
+  container:
+    image: mcr.microsoft.com/dotnet/core/sdk:2.2-alpine
+  test_script: 
+    - dotnet test
