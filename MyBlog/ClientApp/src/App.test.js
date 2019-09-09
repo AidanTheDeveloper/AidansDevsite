@@ -1,12 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { MemoryRouter } from 'react-router-dom';
 import App from './App';
+import Enzyme, { mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16'
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(
-    <MemoryRouter>
-      <App />
-    </MemoryRouter>, div);
+  Enzyme.configure({adapter: new Adapter()})
+  const wrapper = mount(<MemoryRouter><App /></MemoryRouter>)
 });
