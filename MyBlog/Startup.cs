@@ -30,8 +30,7 @@ namespace MyBlog
                 configuration.RootPath = "ClientApp/build";
             });
 
-            var connection = "Data Source=blogging.db";
-            services.AddDbContext<BloggingContext>(options => options.UseSqlite(connection));
+            services.AddDbContext<BloggingContext>(options => options.UseSqlite(Configuration.GetConnectionString("BloggingDatabase")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
