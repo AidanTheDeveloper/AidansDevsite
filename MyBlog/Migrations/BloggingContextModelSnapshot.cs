@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyBlog.Models;
+using MyBlog.Models.Blogging;
 
 namespace MyBlog.Migrations
 {
