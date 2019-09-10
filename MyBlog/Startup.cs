@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyBlog.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyBlog
 {
@@ -27,6 +29,9 @@ namespace MyBlog
             {
                 configuration.RootPath = "ClientApp/build";
             });
+
+            var connection = "Data Source=blogging.db";
+            services.AddDbContext<BloggingContext>(options => options.UseSqlite(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
